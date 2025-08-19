@@ -7,7 +7,7 @@ import soundfile as sf
 import os
 import librosa
 
-model_path = "/home/dark/AssistModel/whisper_finetuned/final_model"  # Update to your model folder, e.g., "C:/Users/YourUsername/Project/whisper_base_finetuned"
+model_path = "/whisper_finetuned/final_model"  # Update to your model folder, e.g., "C:/Users/YourUsername/Project/whisper_base_finetuned"
 
 # Verify model path exists
 if not os.path.exists(model_path):
